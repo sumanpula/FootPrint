@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/load"
+        android:src="@drawable/foot_print_memory"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/main_item_left"
+        android:layout_marginRight="@dimen/main_item_right"
+        android:layout_weight="1"
+        android:id="@+id/rvImages">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvCancel"
+            android:textColor="@color/app_color"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/btn_cancel"
+            android:textSize="@dimen/text_size"/>
+        <ImageView
+            android:layout_width="@dimen/home_icon_size"
+            android:layout_height="@dimen/home_icon_size"
+            android:layout_weight="1"
+            android:id="@+id/ivHome"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/main_margin_bottom"
+            android:src="@drawable/home_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvDelete"
+            android:textColor="@color/app_color"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/btn_delete"
+            android:textSize="@dimen/text_size"/>
+    </LinearLayout>
+</LinearLayout>

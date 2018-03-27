@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_item_bottom"
+        android:layout_marginTop="@dimen/main_item_top"
+        android:gravity="center"
+        android:text="@string/title_reminder"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/main_item_bottom"
+        android:background="@color/black"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/numberDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/main_item_right"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants" />
+            <NumberPicker
+                android:id="@+id/numberPicHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/main_item_right"
+                android:layout_weight="1"
+                android:descendantFocusability="blocksDescendants">
+
+            </NumberPicker>
+
+            <NumberPicker
+                android:id="@+id/numberPicMinutes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_item_left"
+                android:layout_weight="1"
+                android:descendantFocusability="blocksDescendants">
+
+            </NumberPicker>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/main_item_bottom"
+            android:layout_marginTop="@dimen/main_item_top"
+            android:layout_weight="1"
+            android:text="@string/btn_set" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/main_item_bottom"
+            android:layout_marginTop="@dimen/main_item_top"
+            android:layout_weight="1"
+            android:text="@string/btn_cancel" />
+    </LinearLayout>
+</LinearLayout>

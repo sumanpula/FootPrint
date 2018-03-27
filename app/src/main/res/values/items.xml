@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="take_foot_print">TAKE FOOTPRINT</string>
+    <string name="view_foot_print">VIEW FOOTPRINT</string>
+    <string name="amend_details">AMEND DETAILS</string>
+    <string name="edit_foot_print">EDIT FOOTPRINT</string>
+</resources>

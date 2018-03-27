@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#F6C12F</color>
+    <color name="light_gray">#DCDCDC</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="gray">#666</color>
+    <color name="app_bg_color">#2e194d</color>
+    <color name="gray_light">#666</color>
+    <color name="ripple_bg_color">#cccccc</color>
+    <color name="red">#FF0000</color>
+    <color name="milk_white">#DCD9CD</color>
+    <color name="ripple_effect_color">#a21e23</color>
+    <color name="app_color">#f7ae03</color>
+    <color name="green">#0ca120</color>
+</resources>

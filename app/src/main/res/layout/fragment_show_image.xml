@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_margin_top"
+        android:gravity="center"
+        android:text="name"
+        android:id="@+id/tvImageName"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/main_item_top"
+        android:src="@drawable/foot_print_memory"
+        android:id="@+id/iv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_item_bottom"
+        android:layout_gravity="center"
+        android:text="@string/btn_delete"
+        android:padding="5dp"
+        android:id="@+id/tvDelete"
+        android:gravity="center"
+        android:textColor="@color/app_color"/>
+</LinearLayout>

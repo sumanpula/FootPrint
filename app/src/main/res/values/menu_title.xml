@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title_view_foot_print">View Foot Print</string>
+    <string name="menu_title_create_foot_print">Create Foot Print</string>
+    <string name="view_foot_print_list">List of foot prints</string>
+</resources>

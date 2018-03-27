@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FootPrint</string>
+
+    <string-array name="Home_Items">
+        <item>TAKE FOOT PRINT</item>
+        <item>VIEW FOOT PRINT</item>
+        <item>AMEND DETAILS</item>
+        <item>EDIT FOOT PRINT</item>
+    </string-array>
+
+    <string name="tv_create_foot_print">Create Foot Print</string>
+    <string name="hint_foot_print_name">Enter Foot Print Name</string>
+    <string name="tv_foot_print_desc">Foot print will remind you take a pic depending on what you frequency you select below.\n Dont worry
+    , you can take a foot print pic whenever you want via Take foot print button on home screen.\n
+    Select your frequency below...</string>
+    <string name="tv_fre_reminder">Reminder Frequency</string>
+    <string name="tv_date_reminder">Date of Reminder</string>
+    <string name="btn_never">Never</string>
+    <string name="btn_set_reminder">Set Reminder</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_set">Set</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="toast_enter_name">Please enter name</string>
+    <string name="toast_select_foot_print">Please select foot print from list</string>
+    <string name="toast_no_foot_print">There are no foot prints, please add to view</string>
+    <string name="title_set_frequency">Set Frequency</string>
+    <string name="title_reminder">Set Reminder</string>
+    <string name="from_camera">From Camera</string>
+    <string name="from_gallery">From Gallery</string>
+</resources>
